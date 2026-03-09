@@ -1,0 +1,6 @@
+@MyWorldJdd_HostAddress = http://localhost:5010
+
+GET {{MyWorldJdd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
