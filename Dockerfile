@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10 AS build
 WORKDIR /src
 
 # Copiar el archivo de proyecto y restaurar dependencias (Optimization: Layer Caching)
