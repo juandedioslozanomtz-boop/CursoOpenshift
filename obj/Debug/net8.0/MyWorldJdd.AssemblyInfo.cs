@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyWorldJdd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc980c485fb05c5222c2f742c7b29ba80efefabb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd517fc731730f1df71a90ba7246c180b258d1d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyWorldJdd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyWorldJdd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
