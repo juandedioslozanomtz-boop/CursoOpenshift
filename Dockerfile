@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:10 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copiar el archivo de proyecto y restaurar dependencias (Optimization: Layer Caching)
@@ -10,7 +10,7 @@ COPY . .
 RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 
 # Stage 2: Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 WORKDIR /app
 
 # Exponer el puerto por defecto de .NET 8 (8080)
